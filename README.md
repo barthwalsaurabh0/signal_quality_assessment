@@ -8,9 +8,9 @@ An interactive dashboard for analyzing and visualizing the quality of time serie
 
 ## Screenshots
 
-![Preview 1](p1.png)
+![Preview 1](preview1.png)
 
-![Preview 2](p2.png)
+![Preview 2](preview2.png)
 
 
 ## Features
