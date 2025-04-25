@@ -5,7 +5,13 @@
 
 An interactive dashboard for analyzing and visualizing the quality of time series signals, with a focus on physiological data like PPG (photoplethysmography) and ECG (electrocardiography).
 
-![Dashboard Screenshot](https://via.placeholder.com/800x450)
+
+## Screenshots
+
+![Preview 1](p1.png)
+
+![Preview 2](p2.png)
+
 
 ## Features
 

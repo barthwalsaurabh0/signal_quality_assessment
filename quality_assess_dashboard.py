@@ -333,7 +333,7 @@ def analyze_signal_quality(df, signal_col, clean_func, **kwargs):
     clean_padding_ratio = kwargs.get("clean_padding_ratio", 0.2)
     delta_padding_sec = kwargs.get("delta_padding_sec", 1.6)
     port = kwargs.get("port", 32423)
-    debug = kwargs.get("debug", True)
+    debug = kwargs.get("debug", False)
     
     # Create the Dash app
     app = Dash(__name__)
@@ -355,8 +355,8 @@ if __name__ == '__main__':
     import neurokit2 as nk
     
     # Load data
-    ppg_df = pd.read_csv("delta1.csv", nrows=900000)
-    ppg_df = ppg_df[-100000:]  # Use last 100k rows
+    ppg_df = pd.read_csv("48.csv", nrows=10000000)
+    ppg_df = ppg_df[-100000:]
     
     # Define normalization function
     def zscore_normalize(signal):
